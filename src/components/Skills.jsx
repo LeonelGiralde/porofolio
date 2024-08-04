@@ -7,7 +7,7 @@ import Node from '../img/node.png';
 import FireBase from '../img/firebase.png';
 import GitHub from '../img/github.png';
 // import AWS from '../img/aws.png';
-// import Mongo from '../img/mongo.png';
+import Mongo from '../img/mongo.png';
 
 
 const Skills = () => {
@@ -50,6 +50,10 @@ const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
                         <p className='my-4'>GITHUB</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={Mongo} alt="GitHub icon" />
+                        <p className='my-4'>MongoDB</p>
                     </div>
                     
 
