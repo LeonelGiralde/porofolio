@@ -28,7 +28,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="about" smooth={true} duration={500} >
-                        About
+                        Sobre mi
                     </Link>
                 </li>
                 <li>
@@ -38,11 +38,11 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="work" smooth={true} duration={500} >
-                        Work
+                        Porfolio
                     </Link>
                 </li>
                 <li><Link to="contact" smooth={true} duration={500} >
-                    Contact
+                    Contacto
                 </Link>
                 </li>
             </ul>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 </li>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="about" smooth={true} duration={500} >
-                        About
+                        Sobre mi
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'>
@@ -72,12 +72,12 @@ const Navbar = () => {
                 </li>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="work" smooth={true} duration={500} >
-                        Work
+                        Porfolio
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="contact" smooth={true} duration={500} >
-                        Contact
+                        Contacto
                     </Link>
                 </li>
             </ul>
@@ -85,12 +85,12 @@ const Navbar = () => {
             <div className={!show ? 'hidden lg:flex fixed flex-col top-[35%] left-0' : 'flex fixed flex-col top-[35%] left-0'}>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/tjsingh47/" target="_blank" rel="noreferrer" >
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/leonel-giralde/" target="_blank" rel="noreferrer" >
                             Linkedin<FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/TARANjee/" target="_blank" rel="noreferrer" >
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/LeonelGiralde" target="_blank" rel="noreferrer" >
                             Github<FaGithub size={30} />
                         </a>
                     </li>
@@ -100,8 +100,8 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#655f69]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1Towet6N__y2L98K4u7VAIvfVWnrU9wgt/view?usp=sharing" target="_blank" rel="noreferrer" >
-                            Resume<BsFillPersonLinesFill size={30} />
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/drive/u/0/home" target="_blank" rel="noreferrer" >
+                            Cv<BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>

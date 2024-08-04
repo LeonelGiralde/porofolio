@@ -9,9 +9,9 @@ const Work = () => {
             <div className='max-w-[1000px] p-4  flex flex-col justify-center  mx-auto w-full  '>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
-                        Work
+                        Porfolio
                     </p>
-                    <p className='py-6'>&frasl; &frasl; Check out some of my recent work</p>
+                    <p className='py-6'>&frasl; &frasl;Estos son algunos de mis trabajos recientes.</p>
                 </div>
 
                 {/* Container */}
@@ -28,12 +28,12 @@ const Work = () => {
                                 Hospedaje
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='https://taranjee.github.io/box-office/' target="_blank"rel="noreferrer" >
+                                <a href='https://hospedaje-centro.vercel.app/' target="_blank"rel="noreferrer" >
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Link
                                     </button>
                                 </a>
-                                <a href='https://github.com/TARANjee/box-office' target="_blank"rel="noreferrer">
+                                <a href='https://github.com/LeonelGiralde/hospedajeCentro' target="_blank"rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Codigo
                                     </button>
@@ -51,12 +51,12 @@ const Work = () => {
                                 Encriptador
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='https://sgrruspace.live/' target="_blank"rel="noreferrer">
+                                <a href='https://encriptador-umber.vercel.app/' target="_blank"rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Link
                                     </button>
                                 </a>
-                                <a href='https://github.com/TARANjee/sgrru-space' target="_blank"rel="noreferrer">
+                                <a href='https://github.com/LeonelGiralde/encriptador' target="_blank"rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Codigo
                                     </button>

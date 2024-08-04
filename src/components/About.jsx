@@ -14,13 +14,13 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text right text-4xl font-bold'>
-                        <p>Hi. I'm Taranjeet, nice to meet you. Please take a look around.</p>
+                        <p>Hola! Soy Leo, un gusto conocerte. Aca vas a poder conocer un poco mas sobre mi</p>
                     </div>
                     <div>
-                        <p>I am passionate about building excellent software that improves
-                            the lives of those around me. I specialize in creating software
-                            for clients ranging from individuals and small-businesses all the
-                            way to large enterprise corporations. </p>
+                        <p>Me apasiona crear software excelente que mejore la vida de quienes me rodean. 
+                            Actualmente, estoy cursando la carrera de Analista Programador en la Universidad Nacional de La Plata (UNLP)
+                             y trabajando en mis primeros proyectos. Me especializo en crear software para una variedad de clientes, 
+                             desde particulares hasta pequeñas empresas. </p>
                     </div>
                 </div>
             </div>
