@@ -16,7 +16,7 @@ const Footer = () => {
           <Link to="email" smooth={true} duration={500}>
             <BsEnvelope size={30} />
           </Link>
-          <a href="https://drive.google.com/file/d/1xGV52XpsCprnFjPhU8hdM3uqwuQMcvTe/view?usp=sharing" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1q0pz1jOPusnQx7plVzEdpk8A-x_l9b9m/view?usp=sharing" target="_blank" rel="noreferrer">
             <BsFillPersonLinesFill size={30} />
           </a>
         </div>
